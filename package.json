@@ -1,0 +1,29 @@
+{
+  "name": "counterbot-vc",
+  "version": "1.0.0",
+  "description": "Discord bot for synchronized attacks with voice countdown",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.14.1",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "say": "^0.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "synchronization"
+  ],
+  "author": "Omar",
+  "license": "MIT"
+}
